@@ -7,7 +7,7 @@ $(window).ready(function() {
     let logado = localStorage.getItem("logado");
 
     if (logado !== "true") {
-        window.location.href = "/Login/login.html";
+        window.location.href = "../Login/login.html";
     } else {
         // Abre direto na parte painel e inicia o sistema
         $(document).ready(function() {
